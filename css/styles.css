@@ -8,4 +8,61 @@
 .bordered{
 	border:solid thin #A9A9A9;
 	border-radius:3px;
+
+}
+.clear:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.navigation{
+	padding:1%;
+	background-image: url('../images/me.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-position: center;
+	height:400px;
+}
+ul{
+	list-style: none;
+	float: right;
+	width: auto;
+
+}
+ul > li{
+	list-style: none;
+	display: inline;
+	border-radius:.5%
+	padding:1%;
+	overflow:auto;
+}
+ul > li > a{
+	text-decoration: none;
+	font-size: 30px; 
+	background-color:#fff;
+	
+}
+ul > li > a:hover{
+	text-decoration: underline;
+}
+.about-me{
+	text-align:center;
+}
+.projects{
+	text-align: left;
+}
+.project{
+	
+	width:300px;	
+}
+.left{
+	width:200px;
+	height:120px;
+	float:left;
+	
+}
+.right{
+	width:90px;
+	height:120px;
+	float:left;
 }
