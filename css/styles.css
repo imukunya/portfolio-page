@@ -1,0 +1,11 @@
+/**
+*/
+.contain{
+	width:70%;
+	margin:0 auto;
+
+}
+.bordered{
+	border:solid thin #A9A9A9;
+	border-radius:3px;
+}
