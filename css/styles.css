@@ -45,15 +45,14 @@ ul > li > a{
 ul > li > a:hover{
 	text-decoration: underline;
 }
-.about-me{
-	text-align:center;
-}
 .projects{
-	text-align: left;
+	display: inline-block;
 }
 .project{
-	
-	width:300px;	
+	width:30%;
+	float: left;
+	margin:.5%;
+	padding:.2%;
 }
 .left{
 	width:200px;
@@ -65,4 +64,33 @@ ul > li > a:hover{
 	width:90px;
 	height:120px;
 	float:left;
+}
+
+/*about me section*/
+.about-me{
+	
+}
+
+.cv-card{
+	display: inline-block;
+	text-align: center;
+}
+.profile-image{
+	height:400px;
+	 float: left;
+ 	width:400px;
+
+}
+.info-pane{
+	height:400px;
+	width:400px;
+	float: left;
+}
+.img-profile-image{
+	width:400px;
+	height:400px;
+}
+table{
+	width: 100%;
+	float: right !important;
 }
